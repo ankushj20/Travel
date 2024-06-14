@@ -2,7 +2,7 @@ import React from 'react'
 
 const MakeTripPlanTop = () => {
   return (
-    <div className='w-full bg-white text-black flex justify-between'>
+    <div className='w-full  flex justify-between'>
        <div className='w-2/5 my-2 flex items-center justify-evenly '>
             <div className='flex-col flex items-center justify-center'>
                 <h4 className='text-base'>Flight</h4>
