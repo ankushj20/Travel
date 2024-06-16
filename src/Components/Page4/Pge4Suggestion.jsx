@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Page2ChnagingDiv = () => {
+const Pge4Suggestion = () => {
   return (
     <div className='w-full h-[30vh] flex items-center justify-center gap-16'>
         <button className='px-8 py-3 bg-[#F16566] rounded-full text-white'>Back page</button>
@@ -14,7 +14,7 @@ const Page2ChnagingDiv = () => {
         </div>
         <button className='px-8 py-3 bg-[#F16566] rounded-full text-white'>Next page</button>
     </div>
-  )
+)
 }
 
-export default Page2ChnagingDiv
+export default Pge4Suggestion
