@@ -1,12 +1,12 @@
 import React from 'react'
 
-const TripBrousher = () => {
+const TripBrousher = ({image, placename,desc}) => {
   return (
-    <div className='w-[20vw] h-[50vh] p-3 rounded-lg  bg-slate-300'>
+    <div className='w-[20vw] h-[54vh] p-3 rounded-lg hover:scale-[0.9] transition-all bg-slate-300'>
         <div className='w-full h-[35vh]  '>
-            <img className='h-full w-full object-cover  object-center' src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />        
-            <h1 className='text-3xl font-bold p-1 '>Paris</h1>
-            <p className='text-sm font-medium px-1'>Lorem ipsum dolor sit amet, consacilis. Repell endus? <span className='text-blue-500'>More Details.....</span></p>
+            <img className='h-full w-full object-cover  object-center' src={image} alt="" />        
+            <h1 className='text-3xl font-bold p-1 '>{placename}</h1>
+            <p className='text-sm font-medium px-1'>{desc} <br /> <span className='text-blue-500'>More Details.....</span></p>
         </div>        
     </div>
 

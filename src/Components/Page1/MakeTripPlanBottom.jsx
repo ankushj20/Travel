@@ -3,13 +3,8 @@ import React from 'react'
 const MakeTripPlanBottom = () => {
   return (
     <div className='w-full flex items-center justify-evenly'>
-    <div className='flex flex-col px-8 py-1 rounded-xl border-2 justify-center items-start'>
-        <h4 >
-            From
-        </h4>
-        <h2 className='text-xl font-semibold'>
-            New Delhi
-        </h2>
+    <div className='flex flex-col  rounded-xl border-2 justify-center items-start'>
+        <input type="text" className='text-xl px-8 py-4 outline-none active:border-none h-full w-full bg-transparent font-semibold' placeholder='From'/>
     </div>
     <div className='flex flex-col px-8 py-1 rounded-xl border-2 justify-center items-start'>
         <h4 >
