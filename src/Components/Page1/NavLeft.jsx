@@ -1,7 +1,7 @@
 import React from 'react'
 const NavLeft = () => {
   return (
-    <div className='flex text-lg font-normal gap-6'>
+    <div className='flex text-lg font-normal gap-8 '>
             <h4>Home</h4>
             <h4>Travel Deals</h4>
             <h4>Discover</h4>

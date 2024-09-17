@@ -4,7 +4,7 @@ const MakeTripPlanTop = () => {
   return (
     <div className='w-full  flex justify-between'>
        <div className='w-2/5 my-2 flex items-center justify-evenly '>
-            <div className='flex-col flex items-center justify-center'>
+            <div className='flex-col flex items-center justify-center hover:text-amber-500  duration-300 active:text-amber-500'>
                 <h4 className='text-base'>Flight</h4>
                 <i class="ri-plane-line text-xl rotate-45"></i>            
             </div>
